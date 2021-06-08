@@ -52,7 +52,6 @@ INSTALLED_APPS = [
     'crispy_forms',
     'webpack_loader',
 
-    'users',
     'EnergyEquitydotAI',
 
 ]
@@ -67,7 +66,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'QuestionTime.urls'
+ROOT_URLCONF = 'EnergyEquity09.urls'
 
 TEMPLATES = [
     {
@@ -85,7 +84,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'QuestionTime.wsgi.application'
+WSGI_APPLICATION = 'EnergyEquity09.wsgi.application'
 
 
 # Database
