@@ -11,5 +11,6 @@ def main():
     
     data = response.json()
     print("JSON data: " ,data )
+    
 if __name__ == "__main__":
     main()
