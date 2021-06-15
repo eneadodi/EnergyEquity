@@ -150,7 +150,7 @@ STATICFILES_DIRS = [
 #AUTH_USER_MODEL = "users.CustomUser"
 
 # django-crispy-forms
-#CRISPY_TEMPLATE_PACK = "bootstrap4"
+#CRISPY_TEMPLATE_PACK = "bootstrap4" PROB CHANGE THIS WITH OUR CSS FRAMEWORK
 
 # django.contrib.sites
 SITE_ID = 1
@@ -169,7 +169,7 @@ REST_FRAMEWORK = {
         'rest_framework.permissions.IsAuthenticated',
     ),
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
-    'PAGE_SIZE': 2
+    'PAGE_SIZE': 10
 }
 
 WEBPACK_LOADER = {

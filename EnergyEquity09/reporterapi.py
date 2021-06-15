@@ -10,7 +10,8 @@ def main():
         raise Exception("ERRRORR!")
     
     data = response.json()
-    print("JSON data: " ,data )
-    
+    print(data['demographics']['race']['percent_black'])
+    #print(data['geography']['this'])
+
 if __name__ == "__main__":
     main()
