@@ -94,8 +94,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'EnergyEquityDB1',
-        'USER': 'ambiguser',
-        'PASSWORD': 'password123',
+        'USER': 'postgres',
+        'PASSWORD': 'ELM#$356',
         'HOST' : 'LocalHost',
         'PORT' : '5432', 
     }
